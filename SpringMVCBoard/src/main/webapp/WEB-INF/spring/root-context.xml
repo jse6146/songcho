@@ -14,7 +14,7 @@
 	<bean
 	class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
-			<value>WEB-INF/maraiadb.properties</value>
+			<value>WEB-INF/mariadb.properties</value>
 		</property>
 	</bean>
 	
