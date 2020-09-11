@@ -13,21 +13,28 @@
 </head>
 <body>
 <h3>글쓰기</h3>
-<table border="2">
+<table style="width: 400px; border: 1px solid black;" class="table table-bordered">
 	<tr>
-		<th>작성자</th>
-		<td><input type="text" readonly="readonly"></td>
+		<th style="width: 120px;text-align: center;">작성자</th>
+		<td></td>
 	</tr>
 	<tr>
-		<th>제목</th>
-		<td><input type="text"></td>
+		<th style="width: 120px;text-align: center;">제목</th>
+		<td><input type="text" class="form-control"></td>
 	</tr>
 	<tr>
-		<th>내용</th>
-		<td><input type="text"></td>
+		<th style="width: 120px;text-align: center;">내용</th>
+		<td><textarea style="height: 150px;" class="form-control"></textarea></td>
 	</tr>
 	<tr>
-		<td colspan="2"><input type="file"></td>
+		<th style="width: 120px;text-align: center;"></th>
+		<td><input type="file"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<button type="button" class="btn btn-success btn-sm">작성하기</button>
+			<button type="button" class="btn btn-info btn-sm" onclick="history.back()">목록으로</button>
+		</td>
 	</tr>
 </table>
 </body>

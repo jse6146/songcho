@@ -12,8 +12,9 @@ public class NoticeController {
 		return "/board/notice";
 	}
 	
-	@GetMapping("/notice/write.do")
+	@GetMapping("/noticewrite")
 	public String write() {
+		
 		return "/board/noticeform";
 	}
 
